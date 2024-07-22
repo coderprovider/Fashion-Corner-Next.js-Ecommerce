@@ -7,7 +7,7 @@ import { SWRConfig } from 'swr';
 
 import { cartStore } from '@/lib/hooks/useCartStore';
 import useLayoutService from '@/lib/hooks/useLayout';
-
+  
 const ClientProvider = ({ children }: { children: React.ReactNode }) => {
   const { theme } = useLayoutService();
   const [selectedTheme, setSelectedTheme] = useState('system');

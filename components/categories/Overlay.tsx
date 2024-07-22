@@ -4,8 +4,9 @@ const Overlay = ({ category }: { category: string }) => {
       <span className='translate-y-8 text-2xl font-semibold opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100'>
         {category}
       </span>
-    </div>
+    </div>  
   );
 };
 
 export default Overlay;
+  

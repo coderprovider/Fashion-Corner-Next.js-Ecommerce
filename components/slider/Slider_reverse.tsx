@@ -6,7 +6,7 @@ import { convertDocToObj } from '@/lib/utils';
 
 const Slider = async () => {
   const topRated = await productService.getTopRated();
-
+  
   return (
     <div>
       <h2 className='my-2 text-2xl md:my-4'>Top Rated</h2>

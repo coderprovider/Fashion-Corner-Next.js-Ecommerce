@@ -12,5 +12,5 @@ const Providers = async ({ children }: { children: React.ReactNode }) => {
     </SessionProvider>
   );
 };
-
+  
 export default Providers;
