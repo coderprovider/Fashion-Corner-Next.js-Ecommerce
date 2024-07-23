@@ -7,7 +7,7 @@ import useSWR from 'swr';
 
 export const SearchBox = () => {
   const searchParams = useSearchParams();
-  const q = searchParams.get('q') || '';
+  const q = searchParams.get('q') || '';    
   const category = searchParams.get('category') || 'all';
   const router = useRouter();
 
@@ -15,9 +15,9 @@ export const SearchBox = () => {
   const [formQuery, setFormQuery] = useState(q);
 
   const {
-    data: categories,
+    data: categories, 
     error,
-    isLoading,
+    isLoading,  
   } = useSWR('/api/products/categories');
 
   if (error) return error.message;

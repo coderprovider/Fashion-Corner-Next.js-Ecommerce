@@ -13,7 +13,7 @@ const ProductItem = async ({ product }: { product: Product }) => {
 
   const { base64 } = await getPlaiceholder(buffer);
 
-  return (
+  return (  
     <div className='card mb-4 bg-base-300'>
       <figure>
         <Link

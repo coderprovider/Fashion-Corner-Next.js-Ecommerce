@@ -3,9 +3,9 @@ import { cn } from '@/lib/utils';
 export const Rating = ({
   value,
   caption,
-  isCard,
+  isCard, 
 }: {
-  value: number;
+  value: number;  
   caption: string;
   isCard?: boolean;
 }) => {

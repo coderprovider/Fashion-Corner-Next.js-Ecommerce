@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Text = () => {
+const Text = () => {  
   return (
     <div>
-      <h1 className='mb-4 text-3xl font-bold'>
+      <h1 className='mb-4 text-3xl font-bold'>  
         Fashion Corner: Leading E-Commerce Clothing Hub
       </h1>
       <h2 className='mb-2 text-2xl font-semibold'>
