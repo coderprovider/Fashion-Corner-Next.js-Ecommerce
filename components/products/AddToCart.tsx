@@ -11,12 +11,12 @@ const AddToCart = ({ item }: { item: OrderItem }) => {
   const { items, increase, decrease } = useCartService();
   const [existItem, setExistItem] = useState<OrderItem | undefined>();
 
-  useEffect(() => {
+  useEffect(() => { 
     setExistItem(items.find((x) => x.slug === item.slug));
   }, [item, items]);
 
   const addToCartHandler = () => {
-    increase(item);
+    increase(item); 
   };
 
   return existItem ? (

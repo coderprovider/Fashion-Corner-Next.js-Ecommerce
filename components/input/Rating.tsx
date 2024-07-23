@@ -5,8 +5,8 @@ export const Rating = ({
   caption,
   isCard,
 }: {
-  value: number;
-  caption: string;
+  value: number;  
+  caption: string;  
   isCard?: boolean;
 }) => {
   const Full = () => (

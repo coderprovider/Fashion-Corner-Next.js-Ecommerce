@@ -14,9 +14,9 @@ const ProductItems = async () => {
         {latestProducts.map((product) => (
           <ProductItem key={product.slug} product={convertDocToObj(product)} />
         ))}
-      </div>
+      </div>  
     </div>
-  );
+  );  
 };
 
 export default ProductItems;
